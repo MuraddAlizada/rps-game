@@ -1,0 +1,60 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}   
+body {  
+    background: linear-gradient(to right, rgb(94, 193, 208), #fffcdc);
+}
+
+.nameOfGame {   
+    background: linear-gradient(to left, rgb(94, 134, 208), #376ee3);
+    color: #fff;
+    padding: 8px;
+    /* display: flex; */
+}
+
+.nameOfGame h2 {    
+    padding-left: 500px;
+}
+
+.winscale { 
+    margin-top: 130px;  
+    display: flex;
+    
+    
+}
+.winscale h6 {
+    font-size: 28px;
+    flex-direction: column;
+    padding-left: 400px;
+}
+
+.cards {    
+    margin-top: 50px;   
+    display: flex;
+    /* gap: 90px; */
+    justify-content:  space-around;
+}
+
+.card { 
+    background: linear-gradient(to right, #2c8adc, #22c1f1);
+    /* background: black; */
+}
+
+.card h6 {  
+    font-size: 28px; 
+    display: flex;
+    align-items: center; 
+}
+
+.cardInfo { 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.h6 {
+    justify-content: center;
+    align-items: center;
+}
